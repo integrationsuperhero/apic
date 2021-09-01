@@ -1,6 +1,4 @@
----
-title: APIC Dev Jam Lab 3 - Add OAuth Security to your API
----
+# APIC Dev Jam Lab 3 - Add OAuth Security to your API #
 
 In this lab, you will secure the Inventory API to protect the resources
 exposed by **API Connect**. Consumers of your API will be required to
@@ -218,4 +216,4 @@ You completed the APIC Dev Jam Lab 3 - Add OAuth Security to your API. Throug
 
 -   Secure the new version of your API.
 
-Continue the APIC Dev Jam! Go To [APIC (v10) Dev Jam Lab 4 - Use Lifecycle controls to version your API](/APICDevJam/Lab4) to manage the lifecycle of this API and test your new OAuth secured API.
+Continue the APIC Dev Jam! Go To [APIC (v10) Dev Jam Lab 4 - Use Lifecycle controls to version your API](../Lab4) to manage the lifecycle of this API and test your new OAuth secured API.

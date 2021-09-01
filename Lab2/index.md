@@ -1,6 +1,5 @@
----
-title: APIC Dev Jam Lab 2 - The Developer Portal Experienace
----
+# APIC Dev Jam Lab 2 - The Developer Portal Experienace #
+
 
 In this lab, we will take the API created in Lab 1 and publish it to a
 Developer Portal, ready for consumption by app developers. We will begin
@@ -191,4 +190,4 @@ Throughout the tutorial, you explored the key takeaways: 
 -   Test API in Developer Portal. 
 
 
-Continue the APIC Dev Jam! Go to [APIC Dev Jam Lab 3 - The Developer Portal Experience](/APICDevJam/Lab3) 
+Continue the APIC Dev Jam! Go to [APIC Dev Jam Lab 3 - The Developer Portal Experience](../Lab3) 

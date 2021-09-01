@@ -1,6 +1,4 @@
----
-title: APIC Dev Jam - Lab 6 - Working with API Products
----
+# APIC Dev Jam - Lab 6 - Working with API Products #
 
 Your work as an Application Developer and API Designer is now complete.
 It's time to switch roles and become an API Product Manager. The role
@@ -198,5 +196,5 @@ key takeaways:
 -   Publish a product.
 
 Continue with the APIC Dev Jam! Go
-to [APIC Dev Jam - Lab 7 - The Consumer Experience](/APICDevJam/Lab7))] to
+to [APIC Dev Jam - Lab 7 - The Consumer Experience](../Lab7))] to
 explore the consumer experience for APIs that have been exposed to your Sandbox catalog.

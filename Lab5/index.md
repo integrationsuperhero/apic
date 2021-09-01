@@ -1,6 +1,4 @@
----
-title: APIC Dev Jam Lab 5 - Advanced API Assembly
----
+# APIC Dev Jam Lab 5 - Advanced API Assembly #
 
 In the previous labs, you have been working with an API that acts as a
 pass-through to a microservice application.
@@ -357,4 +355,4 @@ Your assembly for the `logistics` API will now include two separate operation po
 4.	Click `Develop` in the navigation menu to return to the list of APIs and Products in your system.
 
 Continue the APIC Dev Jam! Go to
-[APIC Dev Jam - Lab 6 - Advanced API Assembly](/APICDevJam/Lab5)
+[APIC Dev Jam - Lab 6 - Advanced API Assembly](../Lab5)

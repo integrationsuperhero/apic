@@ -288,6 +288,6 @@ your API. Throughout the tutorial, you explored the key takeaways:   
 <!-- -   Test Your OAuth API in the Developer Portal.-->
 
 Continue the APIC Dev Jam! Go to
-[APIC Dev Jam - Lab 5 - Advanced API Assembly](/APICDevJam/Lab5)
+[APIC Dev Jam - Lab 5 - Advanced API Assembly](../Lab5)
 to learn about adding business logic to the API Gateway through the use of
 policies. 

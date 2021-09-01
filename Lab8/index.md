@@ -1,6 +1,4 @@
----
-title: APIC Dev Jam - Lab 8 -- Creating GraphQL Proxy API
----
+# APIC Dev Jam - Lab 8 -- Creating GraphQL Proxy API #
 
 In this lab, you will explore the how to define GraphQL APIs that proxy
 to a backend GraphQL server. GraphQL is a query language for APIs that

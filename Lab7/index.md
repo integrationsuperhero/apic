@@ -1,6 +1,4 @@
----
-title: APIC Dev Jam - Lab 7 - The Consumer Experience
----
+# APIC Dev Jam - Lab 7 - The Consumer Experience #
 
 In this lab, you will explore the consumer experience for APIs that have
 been exposed to your Sandbox catalog. Using the Developer Portal, you
