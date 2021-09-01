@@ -22,13 +22,6 @@ to create a successful API strategy. There are 8 labs and each is 30
 minutes long. Make sure you choose enough time in your reservation to
 get through all the labs! 
 
-**NOTE: This demo environment contains a
-full API Connect installation in Cloud Pak for Integration. The login
-information to the APIC cluster will be sent in a separate email when
-you reserve the instance. Use Google Chrome, Firefox or Microsoft Edge
-to access the cluster using the credentials supplied. Make sure you
-login using API Manager User Registry not Common Services
-registry.**
 
 Prerequisites: Labs 1-6
 
@@ -141,3 +134,7 @@ expected response based on inputs they provide the API.
 
 Congratulations! You have created multiple plans, tested APIs in the
 developer portal, and used the APIs in a consumer application. 
+
+Continue with the APIC Dev Jam! Go
+to [APIC Dev Jam - Lab 8 - Creating GraphQL Proxy API](../Lab8))] to
+explore working GraphQL APIs.

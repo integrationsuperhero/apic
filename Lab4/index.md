@@ -1,6 +1,4 @@
----
-title: APIC Dev Jam Lab 4 - Use Lifecycle Controls to Version your API
----
+# APIC Dev Jam Lab 4 - Use Lifecycle Controls to Version your API #
 
 In the previous lab, you created a new version of the inventory API
 which is secured with an OAuth 2.0 provider. At this stage, however, the
@@ -38,15 +36,6 @@ is for API developers, architects, and line of business people who want
 to create a successful API strategy. There are 8 labs and each is 30
 minutes long. Make sure you choose enough time in your reservation to
 get through all the labs! 
-
-
-**Note: This demo environment contains a
-full API Connect installation in Cloud Pak for Integration. The login
-information to the APIC cluster will be sent in a separate email when
-you reserve the instance. Use Google Chrome, Firefox or Microsoft Edge
-to access the cluster using the credentials supplied. Make sure you
-login using API Manager User Registry not Common Services
-registry.**
 
 Prerequisites: Labs 1-3
 

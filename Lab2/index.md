@@ -26,14 +26,6 @@ to create a successful API strategy. There are 8 labs and each is 30
 minutes long. Make sure you choose enough time in your reservation to
 get through all the labs! 
 
-**NOTE: This demo environment contains a
-full API Connect installation in Cloud Pak for Integration. The login
-information to the APIC cluster will be sent in a separate email when
-you reserve the instance. Use Google Chrome, Firefox or Microsoft Edge
-to access the cluster using the credentials supplied. Make sure you
-login using API Manager User Registry not Common Services
-registry.**
-
 Prerequisites: Labs 1
 
 ## Generate the developer portal

@@ -28,8 +28,6 @@ to create a successful API strategy. There are 8 labs and each is 30
 minutes long. Make sure you choose enough time in your reservation to
 get through all the labs! 
 
-**NOTE: This demo environment contains a full API Connect installation in Cloud Pak for Integration. The login information to the APIC cluster will be sent in a separate email when you reserve the instance. Please use Google Chrome to access the cluster using the credentials supplied. Make sure you login using TechCon or Enterprise LDAP registry.**
-
 ## Import API to the Developer Workspace
 
 First, we will download the OpenApi file for the existing REST service

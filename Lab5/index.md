@@ -32,14 +32,6 @@ to create a successful API strategy. There are 8 labs and each is 30
 minutes long. Make sure you choose enough time in your reservation to
 get through all the labs! 
 
-**NOTE: This demo environment contains a
-full API Connect installation in Cloud Pak for Integration. The login
-information to the APIC cluster will be sent in a separate email when
-you reserve the instance. Use Google Chrome, Firefox or Microsoft Edge
-to access the cluster using the credentials supplied. Make sure you
-login using API Manager User Registry not Common Services
-registry.**
-
 Prerequisites: Labs 1-4
 
 ## Create and Define the Financing API (REST to SOAP)
@@ -355,4 +347,4 @@ Your assembly for the `logistics` API will now include two separate operation po
 4.	Click `Develop` in the navigation menu to return to the list of APIs and Products in your system.
 
 Continue the APIC Dev Jam! Go to
-[APIC Dev Jam - Lab 6 - Advanced API Assembly](../Lab5)
+[APIC Dev Jam - Lab 6 - Advanced API Assembly](../Lab6)
