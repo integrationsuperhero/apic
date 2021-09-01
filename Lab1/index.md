@@ -1,6 +1,5 @@
----
-title: APIC Dev Jam Lab 1 - Create and Secure an API
----
+#APIC Dev Jam Lab 1 - Create and Secure an API#
+
 
 
 In this lab, you will get a chance to use the online APIC Developer
@@ -77,7 +76,7 @@ for Inventory. Then, we will import it to the online workspace.
 
     ```
 
-    You can also down the file using this link : [inventory.yaml](https://integrationsuperhero.github.io/techcon2020/APICDevJam/resources/inventory.yaml)
+    You can also down the file using this link : [inventory.yaml](../resources/inventory.yaml)
 
     Choose the downloaded `Inventory.yaml` OpenAPI definition and Click `Next.`
 
@@ -234,4 +233,4 @@ You completed the APIC Dev Jam Lab 1 - Create and Secure an API. Throughout th
 
 -   Publish an API for developers.
 
-Continue the APIC Dev Jam! Go to [APIC Dev Jam Lab 2 - The Developer Portal Experience](/APICDevJam/Lab2) to learn how to socialise this API and make it available to developers.
+Continue the APIC Dev Jam! Go to [APIC Dev Jam Lab 2 - The Developer Portal Experience](../Lab2) to learn how to socialise this API and make it available to developers.
