@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---cache-dev-404-page-js",
-    "path": "/dev-404-page/",
-    "result": {"data":{"allSiteFunction":{"nodes":[]},"allSitePage":{"nodes":[{"path":"/404.html"},{"path":"/404/"},{"path":"/"},{"path":"/APICDevJam/"},{"path":"/overview/"},{"path":"/resources/"},{"path":"/APICDevJam/Lab1/"},{"path":"/APICDevJam/Lab2/"},{"path":"/APICDevJam/Lab3/"},{"path":"/APICDevJam/Lab4/"},{"path":"/APICDevJam/Lab5/"},{"path":"/APICDevJam/Lab6/"},{"path":"/APICDevJam/Lab8/"},{"path":"/APICDevJam/Lab7/"}]}},"pageContext":{"relativePagePath":"/Users/dtemkin/Downloads/integration-tech-io-master/.cache/dev-404-page.js","titleType":"page","frontmatter":{"description":"Dev 404 Page","title":"Dev 404 Page"}}},
-    "staticQueryHashes": ["137577622","2102389209","2746626797","3018647132","3037994772","768070550"]}

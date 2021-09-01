@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkcloudpak_integration=self.webpackChunkcloudpak_integration||[]).push([[883],{9616:function(e,n,t){t.r(n);var o=t(7294),r=t(7426),a=[{href:"/components/markdown",text:"Markdown"},{href:"/components/Aside",text:"Aside"},{href:"/components/demo",text:"Demo"}];n.default=function(){return o.createElement(r.e9,{links:a})}}}]);
-//# sourceMappingURL=component---src-pages-404-js-c0ee10449cf6818c7360.js.map
