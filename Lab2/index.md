@@ -30,10 +30,68 @@ Prerequisites: Labs 1
 
 ## Generate the developer portal
 
-A developer portal for the sandbox catalog was already configured in
-this environment. A consumer account "ibmuser" was also created to use
-the Developer Portal server. In this section, login to Developer Portal
-using the credentials provided in email.
+Application developers discover and use APIs by using the Developer Portal. You can customize the Developer Portal for your application developers.
+In addition to allowing application developers to find and use both free and paid APIs, the Developer Portal provides additional features including forums, blogs, comments, and ratings, together with an administrative interface for customizing the Developer Portal. 
+
+Now that your product is published, let’s view it in the developer portal. This can be found under the Manage section of APIC. 
+
+
+1\. Click on the **Manage** tab on the left side bar.
+
+![alt text][pic36]
+
+2\. Click the catalog in which you published the API (sandbox).
+
+![alt text][pic37]
+
+3\. Click on **Catalog settings**.
+
+![alt text][pic38]
+
+4\. Click on **Portal** in the left menu and copy and paste the Portal URL into your browser in a new tab.
+
+![alt text][pic39]
+
+5\. The portal is setup for self service so we will create a new account as a developer.
+
+![alt text][pic40]
+
+6\. Fill in the form and make sure to use a valid email address since that is where the activation email is sent.  At the bottom when done, click **Sign up**.
+
+![alt text][pic41]
+
+7\. You will receive an email that you will copy the link and paste in to your browser to complete the registration at which point you can log in. 
+
+![alt text][pic42]
+
+8\. Go to **Sign in** and enter your Username and Password you just created.
+
+![alt text][pic43]
+[pic36]: images/36.png
+[pic37]: images/37.png
+[pic38]: images/38.png
+[pic39]: images/39.png
+[pic40]: images/40.png
+[pic41]: images/41.png
+[pic42]: images/42.png
+[pic43]: images/43.png
+[pic44]: images/44.png
+[pic45]: images/45.png
+[pic46]: images/46.png
+[pic47]: images/47.png
+[pic48]: images/48.png
+[pic49]: images/49.png
+[pic50]: images/50.png
+[pic51]: images/51.png
+[pic52]: images/52.png
+[pic53]: images/53.png
+[pic54]: images/54.png
+[pic55]: images/55.png
+[pic56]: images/56.png
+[pic57]: images/57.png
+[pic58]: images/58.png
+[pic59]: images/59.png
+
 
 ### Login to API Connect Developer Portal
 
