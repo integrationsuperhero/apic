@@ -1,6 +1,8 @@
 
 # APIC DevJam #
 
+### Flight Schedule ###
+[9/2/2021 10 AM EST](apic-92am.md)
 
 ### **APIC Dev Jam Lab Instructions** ###
 
