@@ -130,7 +130,7 @@ per-API.
 
 2.  Click the `inventory auto product 1.0.0` product.
 
-        ![](images/Step3_1.png)
+    ![](images/Step3_1.png)
 
 3.  Open the **inventory 1.0.0** API to browse the API definition.
 

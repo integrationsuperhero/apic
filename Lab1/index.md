@@ -67,14 +67,9 @@ for Inventory. Then, we will import it to the online workspace.
     ![](images/tutorial_html_b219e12b9ba30a1c.png)  
 
 6.  Now download the `Inventory.yaml`
-    file the dte-labs git repository using the following command.
+    
 
-    ```
-    curl -OL https://raw.githubusercontent.com/ibm-cloudintegration/dte-labs/master/APICv10/inventory.yaml
-
-    ```
-
-    You can also down the file using this link : [inventory.yaml](../resources/inventory.yaml)
+    Save the file: [inventory.yaml](../resources/inventory.yaml) to an easy to find location as you will be uploading the file as part of the Import and Existing OpenAPI.
 
     Choose the downloaded `Inventory.yaml` OpenAPI definition and Click `Next.`
 
@@ -164,12 +159,12 @@ after creation in the Assemble view!
 
 2.  Click on the Test tab and select
 
-`GET https://gw.techiotraining-420eb34f056ae68f3969289d61f61851-0000.us-east.containers.appdomain.cloud/labtest/sandbox/api/Items`
+`GET https://cpd-cp4i.apps.myhost.coc-ibm.com/labtest/sandbox/api/Items`
 
 From the drop down. *Your URL will be different from that in the example.*
  
 
-    ![](images/step5_2.png)
+  ![](images/step5_2.png)
 
 
 3.  Click `Send`.

@@ -120,22 +120,22 @@ Put in the sample value after the item is created.  Then click Save to save the 
 
 
 
-14.	Expend the /calculate path and click the + icon besides Operations to add a new operation.  Select “Get” and click Create.
+14.	Expand the /calculate path and click the + icon besides Operations to add a new operation.  Select “Get” and click Create.
 
 ![](images/1-14-1.png)
 ![](images/1-14-2.png)
 
 
-15.	Expend the get operation and use the + icon besides the path parameter to create 3 parameters with the following values.
+15.	Expand the get operation and use the + icon besides the path parameter to create 3 parameters with the following values.
 
-  **Required**   **Name**   **Located In**   **Type**   **Description**
-  -------------------  --------------    --------------------   -------------    ---------------------
-      yes                      amount         Query                    number          amount to finance
-      yes                      duration        Query                    number          length of term in months
-      yes                      rate                Query                    number          interest rate
+  | **Required**  | **Name**  | **Located In**  | **Type**  | **Description** |
+  |---------------|-----------|-----------------|-----------|-----------------|
+  |    yes        |   amount  |    Query        |   number  |  amount to finance |
+  |    yes        |   duration |   Query        |   number  | length of term in months |
+  |   yes         |   rate     |   Query        |   number  |  interest rate |
 
-      ![](images/1-15-1.png)
-      ![](images/1-15-2.png)
+![](images/1-15-1.png)
+![](images/1-15-2.png)
 ![](images/1-15-3.png)
 
 
