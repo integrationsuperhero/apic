@@ -29,3 +29,6 @@
 [logistics.yaml](./resources/logistics.yaml)
 
 [calculate.wsdl](./resources/calculate.wsdl)  
+
+### Slides ###
+[Pre Lab Mini Deck](APIC_ExperienceLab.md)
