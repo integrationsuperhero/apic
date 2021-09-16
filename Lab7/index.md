@@ -135,6 +135,3 @@ expected response based on inputs they provide the API.
 Congratulations! You have created multiple plans, tested APIs in the
 developer portal, and used the APIs in a consumer application. 
 
-Continue with the APIC Dev Jam! Go
-to [APIC Dev Jam - Lab 8 - Creating GraphQL Proxy API](../Lab8))] to
-explore working GraphQL APIs.
