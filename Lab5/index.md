@@ -337,6 +337,20 @@ Click `X` to close the invoke editor.
 2.	Add a `gatewayscript policy` with the following properties:
 [Title: gws_format_maps_link]
 Copy the following GatewayScript snippet and paste it into the text area:
+
+`// Save the Google Geocode response body to variable `
+`var mapsApiRsp = apim.getvariable('google_geocode_response.body'); `
+
+`// Get location attributes from geocode response body `
+`var location = mapsApiRsp.results[0].geometry.location;`
+
+`// Set up the response data object, concat the latitude and longitude`
+`var rspObj = {"google_maps_link": "https://www.google.com/maps?q=" + location.lat + "," + location.lng};`
+
+`// Save the output     
+apim.setvariable('message.body', rspObj)`
+
+
 Click `X` to close the gatewayscript editor.
 Your assembly for the `logistics` API will now include two separate operation policies:  
 
