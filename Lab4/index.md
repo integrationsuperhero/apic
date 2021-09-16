@@ -65,16 +65,14 @@ API Connect:
 
     ![](images/tutorial_html_1b6ee2ef86d15297.png)
 
-4.  Title this product `Inventory Products` and
+4.  Title this product `Branch Products` and
     click `Next.`
+    
 
-    ![](images/tutorial_html_f9602420f730e70a.png)
-
-5.  Select the `inventory
+5.  Select the `FindBranch
     2.0.0 API`,
     then click `Next`.
 
-    ![](images/tutorial_html_a10fb032a1d8a45e.png)
 
 6.  Add the `Default Plan` to your
     product and then click `Next.`

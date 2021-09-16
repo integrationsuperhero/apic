@@ -1,0 +1,30 @@
+info:
+  version: 1.0.0
+  title: Branch APIs
+  name: branch-apis
+gateways:
+  - datapower-api-gateway
+plans:
+  default-plan:
+    title: Default Plan
+    description: Default Plan
+    rate-limits:
+      default:
+        value: 100/1hour
+    apis:
+      findbranch1.0.0: {}
+apis:
+  findbranch1.0.0:
+    $ref: findbranch_1.0.0.yaml
+visibility:
+  view:
+    type: public
+    orgs: []
+    tags: []
+    enabled: true
+  subscribe:
+    type: authenticated
+    orgs: []
+    tags: []
+    enabled: true
+product: 1.0.0

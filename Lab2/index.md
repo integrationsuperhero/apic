@@ -139,13 +139,13 @@ subscribing it to an API Product.
 3.  Give your application the title `IBM Consumer Application` and then
     click `save`.
 
-    ![](images/Step2_3.png)
+    ![](images/Step2_3_new.png)
 
 
 4. When your consumer application is registered in the IBM API Connect
 system, it is assigned a unique set of client credentials. These
 credentials must be provided on each API request in order for the system
-to validate your subscription entitlements. The Client ID can be retireved anytime but the Client Secret can only be retrieved at this time.
+to validate your subscription entitlements. The Client ID can be retireved anytime but the Client Secret can only be retrieved at this time. Copy and save both of these values over to a scratch pad for later reference.
 
 ![](images/Step2_4.png)
 
@@ -153,27 +153,29 @@ to validate your subscription entitlements. The Client ID can be retireved anyti
 
 ### Subscribe to the API Product
 
-At this point, your registered consumer application has no entitlements.
+At this point, your registered consumer application has no subscriptions.
 In order to grant it access to an API resource, you must subscribe to a
 Product and Plan.
 
 1.  Click `API Products` at
-    the top of the screen.
+    the top of the screen or click on the `Why not browse the available APIs?` link in the Product subscription section of your new Application. 
+    ![](images/no-subscriptions.png)
 
-2.  Click the `inventory auto product
-    1.0.0` product.
+2.  Click the `Branch APIs 1.0.0` product.
 
-    ![](images/Step3_1.png)
+    ![](images/Step3_1_new.png)
 
-3.  Scroll down to the Plan and select it.
+3.  Click on the Blue `Select` Box in the Default Plan. If we had created different plans for the product this is where we would see the options and select which one is correct for our application. 
 
-![](images/Step3_2.png)
+    ![](images/Step3_2_new.png)
 
 4.  **Select your application**, 
-      ![](images/Step3_4.png)
+      ![](images/subscribe1.png)
 
-5. Click **Done**.
-      ![](images/Step3_6.png)
+5.  **Confirm Your Subscription**, 
+      ![](images/subscribe2.png)
+6. Subscription is Complete so Click blue **Done** box.
+      ![](images/subscribe3.png)
 
  ## Test the API
 
@@ -186,38 +188,32 @@ per-API.
     the top of the screen.
 
 
-2.  Click the `inventory auto product 1.0.0` product.
+2.  Click the `Branch APIs 1.0.0` product.
 
-    ![](images/Step3_1.png)
+  
 
-3.  Open the **inventory 1.0.0** API to browse the API definition.
+3.  Open the **FindBranch 1.0.0** API to browse the API definition.
 
-    ![](images/Step4_3.png)
 
-4.  Click the `GET /Items` operation
+4.  Click the `GET /details` operation
     on the left palette.
 
     In the right column, you will find information about the request
     parameters and links to the response schemas.
 
-5.  Click the `Try it` tab.
-
-    ![](images/Step4_5.png)
-
-6.  If you only have one application registered, it will be
+5.  Click the `Try it` tab. If you only have one application registered, it will be
     automatically selected in the `Client
     ID` drop-down menu. If you have more
     than one, select the application which is subscribed to this API
     Product.
-    ![](images/Step4_7.png)
 
-7.  Paste your `Client Secret` into the
-    provided field.
+    ![](images/try-it.png)
 
-8.  Click the `Send` button
+
+6.  Click the `Send` button
     to invoke the API.
 
-8.  Scroll down to see the call results.
+7.  Scroll down to see the call results.
 
 **Note: If running for the first time, you may see Code: 0 No response
 received. Causes include a lack of CORS support on the target server,

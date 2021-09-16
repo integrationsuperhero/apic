@@ -32,9 +32,9 @@ Prerequisites: None
 
 ## Create a GraphQL Proxy API
 
-1.  Select Develop API and click Add-\>API
+1.  Select Develop API from the left menu and click Add-\>API
 
-    ![](images/tutorial_html_c0c5acec16e566bb.png)
+    ![](images/tutorial_html_c0c5acec16e566bb_new.png)
 
 2.  Enter the following values and click Next. You To create a GraphQL
     proxy definition, select From Existing GraphQL service. When you
@@ -48,32 +48,32 @@ Prerequisites: None
 
     Title: accounts
 
-    GraphQL server URL: https://graphql-test-server.us-east.cf.appdomain.cloud/accounts/graphql
+    GraphQL server URL: `https://graphql-test-server.us-east.cf.appdomain.cloud/accounts/graphql`
 
     ![](images/tutorial_html_f83e60ae96763438.png)
 
     ![](images/tutorial_html_90e0cbad29eca5a.png)
+    Click the blue `Next` to continue the wizard.
 
 4.  The schema validator reports warning and errors if found. There is
-    one warning in the accounts schema imported from the server. You can
+    two warning in the accounts schema imported from the server. You can
     review the schema warning details and also select the end points
     interested for this proxy. Select all the available end points.
 
-    ![](images/tutorial_html_3cc23a786c4f73c2.png)
+    ![](images/tutorial_html_3cc23a786c4f73c2_new.png)
 
-5.  A review of the schema shows that no limit is set on the size of the
-    list. You will fix this warning in later steps. Click Next to
+5.  A review of the schema shows that no limit is set on the size of some of the list. You will fix this warning in later steps. Close the dialog box and Click `Next` to
     continue.
 
-    ![](images/tutorial_html_8104c10fce21e609.png)
+    ![](images/tutorial_html_8104c10fce21e609_new.png)
 
-6.  Keep both Secure Client ID and CORS checked and click Next
+6.  Keep both Secure Client ID and CORS checked and click `Next`
 
     ![](images/tutorial_html_464f81f24c7d47dd.png)
 
 7.  API Connect successfully created a GraphQL proxy API. You can edit
     the API to view more details on the proxy API just created. Click
-    EDIT API to continue.
+    `Edit API` to continue.
 
     ![](images/tutorial_html_e70bb58508f9b662.png)
 
@@ -84,7 +84,7 @@ Prerequisites: None
     REST APIs. You will notice a new tab for GraphQL APIs. Click on
     GraphQL Schema tab to view the schema.
 
-    ![](images/tutorial_html_b27d147e1a49276b.png)
+    ![](images/tutorial_html_b27d147e1a49276b_new.png)
 
 9.  GraphQL Schema editor displays Type and Weight information. The
     weighting factor is used when calculating the type cost for a
@@ -92,26 +92,24 @@ Prerequisites: None
     extensive CPU or memory use on the server to retrieve its value
     would be given a higher cost.
 
-    ![](images/tutorial_html_ab0c11b157a7cd4b.png)
+    ![](images/tutorial_html_ab0c11b157a7cd4b_new.png)
 
-10. Select Query to review the warning details for this type. In
+10. Select Query and Account to review the warning details for this type. In
     addition to the warning details, the Warning window gives an option
     to fix the warning by apply the limits. Click Apply to continue.
 
-    ![](images/tutorial_html_ed0f88002c9eb816.png)
+    ![](images/tutorial_html_ed0f88002c9eb816_new.png)
 
-11. After applyting the recommendation the wanrning message is removed.
-    Click Save to save the API definition .
+11. After applying the recommendation the wanrning message is removed.
+    Click `Save` to save the API definition .
 
-    ![](images/tutorial_html_63ce76efdb0032d7.png)
-
-12. Select Assemble to view the API in Assembly view. The flow is
+12. Select Gateway to view the API in Policies view. The flow is
     automatically created as part of the initial API creation. You may
     apply addition logic by dragging and dropping items from the pallet
     to the canvas. In this tutorial, you are not adding additional
     logic.
 
-    ![](images/tutorial_html_a2cd4daada4f2ca5.png)
+    ![](images/tutorial_html_a2cd4daada4f2ca5_new.png)
 
 13. To publish the API toggle the button from offline to online.
 

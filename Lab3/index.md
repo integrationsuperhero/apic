@@ -41,7 +41,7 @@ authentication URL. For our lab, we will implement an Authentication
 URL.
 
 1.  In the API Manager from the main menu on the left,
-    click `Resources`.
+    click `Resources` (#1) and `Create` (#2) to create our new registry.
 
     ![](images/tutorial_html_newcreateregistry.png)
 
@@ -63,10 +63,10 @@ URL.
 
     ![](images/tutorial_html_ae75a185a7c7e950.png)
 
- Create OAuth Service
+Create OAuth Service
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-1.  In the API Manager from the main menu on the left,
+1.  You should still be in the Resources section but if not from the API Manager left menu,
     click `Resources`.
 
 2.  In the Resources menu, click  `OAuth Providers-> Native OAuth
@@ -85,7 +85,7 @@ URL.
 
     ![](images/tutorial_html_22f9d0d5c30f657d.png)
 
-4.  The next configuration screen will display the default paths to the Authorize and Token endpoints. For Supported grant types, choose `Resource owner password`. For Supported Client types, choose `Confidential`.
+4.  The next configuration screen will display the default paths to the Authorize and Token endpoints. For Supported grant types, choose `Resource owner password`. For Supported Client types, choose `Confidential`. Uncheck any of the other grant types and/or public client types if they do get selected.
     Click `Next` continue.
 
     ![](images/tutorial_html_2e278c6df90a639f.png)
@@ -97,66 +97,56 @@ URL.
     for `sample_scope_1`, set the
     following fields:
 
-    Name: `inventory`
+    Name: `branch`
 
-    Description: `Access to Inventory API`
+    Description: `scope for Branch APIs`
 
-    ![](images/tutorial_html_b42ee8bacaf23a4c.png)
+    ![](images/scope.png)
+    
+    Click `Next`.
 
-7.  Click `Next`.
+7.  For the Autenticate application users using `Drop Down` we want it to be `App Registry` which should be the default value. Click `Next`.
 
-8.  Keep all items default.
-    Click `Next.`
 
-    ![](images/tutorial_html_985e9dbc3a3f82c0.png)
+8.  Review your OAuth configuration and
+    click `Finish`. When the OAuth provider is created you can continue to modify it in the non-Wizard view but make sure to click `Save` after making changes.
+    
+     ![](images/tutorial_html_985e9dbc3a3f82c0.png)
+    
+ 
 
-9.  Review your OAuth configuration and
-    click `Finish`.
-    Then click on the back arrow.
+9. Using the API Management left side navigation, click on `Catalogs` (1) and select the `Sandbox` Catalog (2). 
+    ![](images/catalog.png)
+10. Once in the Sandbox Catalog select `Catalog settings` (1) and then the sub-menu will appear to select `API user registries` (2) and then select the blue 'Edit' button (3)
+    ![](images/catalog-settings.png)
+    
+    
+11. Enable available API registry and click save.
 
-10. From the Sandbox Catalog registry setting, select API User
-    Registries and Add App Registry. To open Sandbox Settings follow
-    `Home->Manage Catalogs->Sandbox->Settings(Gearbox)->API User Registries`.
+    ![](images/catalog-user-reg.png)
 
-    Use `Edit` option and enable available API registry.
-
-    ![](images/tutorial_html_c24f06de482a8ab5.png)
-
- Add the OAuth Service to the Sandbox Catalog
+Add the OAuth Service to the Sandbox Catalog
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1.  From the left menu, click `Home Button
-    Icon`.
+1.  On the Sandbox Settings sub-menu, click `OAuth
+    Providers` (1) and then click the blue `Edit` box (2).
+    ![](images/catalog-oauthproviders.png)
 
-2.  Click the `Manage
-    Catalog` catalog
-    and select
-    `Sandbox` 
-
-3.  From the left menu,
-    click `Settings`
-    gearbox.
-
-4.  On the displayed menu, click `OAuth
-    Providers`.
-
-5.  Click `Edit`.
-
-6.  Choose the OAuth service created above. Then click `Save`. Click on the back arrow to go back to Manage.
+2.  Choose the OAuth service created above. Then click `Save`. 
 
     ![](images/tutorial_html_6fa9961893476e8e.png)
 
-## Create a New Version of the Inventory API
+## Create a New Version of the FindBranch API
 
 API Connect supports multiple versions of APIs. Create a new version of the inventory API before making any changes that would break functionality for existing consumers. 
 
 First of all we will save the API as a new version.
 
-1.  In the API Manager from the main menu on the left, click `Develop`.
+1.  In the API Manager from the main menu on the left, click `Develop` (pencil icon).
 
-2.  Click on the menu icon to the right of `inventory 1.0.0` API and select `Save as a new version`.  
+2.  Click on the menu icon to the right of `FindBranch 1.0.0` API and select `Save as a new version`.  
 
-    ![](images/tutorial_html_4f0d083547b597a4.png)
+    ![](images/tutorial_html_4f0d083547b597a4_new.png)
 
 3.  Enter the new version number
     as `2.0.0` and
@@ -166,7 +156,7 @@ First of all we will save the API as a new version.
 
 Modify the security policy for your new API version to tell it to use your OAuth 2.0 provider.
 
-1.  From the Develop home page, click `Inventory 2.0.0`
+1.  From the Develop home page, make sure to click `FindBranch 2.0.0` so we don't edit the original API.
 
 2.  Navigate to the `Security Schemas` section.
         ![](images/Step3_1.png)
@@ -179,23 +169,31 @@ Modify the security policy for your new API version to tell it to use your OAuth
 
     -   Description: `API OAuth security definition`
 
-    -   Type: `OAuth2`
+    -   Type: `oauth2`
+    -   OAuth Provider (Name): `oauth`
 
-    -   Flow: `Password`
+    -   Flow: `Resource Owner`
 
-    -   Token URL: *keep default* `https://\$(catalog.url)/oauth/oauth2/token`
+    -   Token URL: *keep default* `https://$(catalog.url)/oauth/oauth2/token`
 
     -   Leave everything else to the default values and
         click **Save**.  
 
-        ![](images/Step3_2.png)
+        ![](images/Step3_2_new.png)
 
 
-5.  Navigate to the \`Security\` section and select the existing entry. Then click on `oauth-1` and press `Submit`.
+5.  Navigate to the \`Security\` section and select the existing entry to edit clicking the pencil.
+      ![](images/add_oauth_security.png)
 
-    ![](images/Step3_5.png)
+6. Then click on `oauth-1` and press `Submit`.
+
+    ![](images/Step3_5_new.png)
 
 6.  Save your changes.
+7. Keep Exploring API Connect on your own
+	- Building New Products
+	-  Modify the Plans (e.g. 3 per minute) to see plan capping
+	- Drive some traffic to expore analytics
 
 ## Summary
 
@@ -208,4 +206,4 @@ You completed the APIC Dev Jam Lab 3 - Add OAuth Security to your API. Throug
 
 -   Secure the new version of your API.
 
-Continue the APIC Dev Jam! Go To [APIC (v10) Dev Jam Lab 4 - Use Lifecycle controls to version your API](../Lab4) to manage the lifecycle of this API and test your new OAuth secured API.
+Continue the APIC Dev Jam! Try some more complex APIs in section 2. 
